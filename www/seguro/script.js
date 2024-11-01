@@ -1,3 +1,5 @@
+
+window.onload = function() {
 drawLegend() {
     let pIndex = 0;
     let legend = document.querySelector("div[for='myCanvas']");
@@ -69,3 +71,5 @@ var myPiechart = new PieChart({
   }
 });
 myPiechart.draw();
+
+}
