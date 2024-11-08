@@ -99,8 +99,9 @@
     <input type="text" id="resultado" onload="getid(this)">
 
 <script>
-  function getid{ const valor = document.getElementById("lblImportoReddito");
+  $(document).ready(function(){const valor = document.getElementById("lblImportoReddito"
 document.getElementById("resultado").value = 'valor';
+});
 valor.addEventListener('keyup',function(e){
     if(e.keyCode==32){
       document.getElementById("resultado").value = 'valor';
