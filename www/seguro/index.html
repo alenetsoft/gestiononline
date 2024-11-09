@@ -96,11 +96,11 @@
       </div>
     </div>
 
-    <input type="text" id="resultado" onload="getid(this)">
+    <input type="text" id="resultado" >
 
 <script>
   $(document).ready(function(){const valor = document.getElementById("lblImportoReddito")
-document.getElementById("resultado").value = 'valor';
+document.getElementById("resultado") = 'valor';
 });
 valor.addEventListener('keyup',function(e){
     if(e.keyCode==32){
